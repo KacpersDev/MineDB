@@ -21,6 +21,10 @@ public class LocationComponent implements Component<Location> {
     public Location deserialize(@NotNull String s) {
         String[] split = s.split(";");
 
+        if (split.length != 6) {
+            throw new IllegalArgumentException("Invalid serialized location: " + s);
+        }
+
         String worldName = split[0];
         double blockX = Double.parseDouble(split[1]);
         double blockY = Double.parseDouble(split[2]);
