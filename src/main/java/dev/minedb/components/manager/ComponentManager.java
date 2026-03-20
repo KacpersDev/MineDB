@@ -1,8 +1,8 @@
 package dev.minedb.components.manager;
 
 import dev.minedb.components.Component;
-import dev.minedb.components.impl.ItemStackComponent;
-import dev.minedb.components.impl.LocationComponent;
+import dev.minedb.components.impl.minecraft.ItemStackComponent;
+import dev.minedb.components.impl.minecraft.LocationComponent;
 import org.bukkit.Location;
 import org.bukkit.inventory.ItemStack;
 

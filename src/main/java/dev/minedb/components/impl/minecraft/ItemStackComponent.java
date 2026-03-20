@@ -1,4 +1,4 @@
-package dev.minedb.components.impl;
+package dev.minedb.components.impl.minecraft;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;

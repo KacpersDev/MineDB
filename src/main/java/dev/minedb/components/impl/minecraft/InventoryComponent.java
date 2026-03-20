@@ -1,4 +1,4 @@
-package dev.minedb.components.impl;
+package dev.minedb.components.impl.minecraft;
 
 import dev.minedb.components.Component;
 import org.bukkit.inventory.ItemStack;
